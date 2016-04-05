@@ -30,9 +30,6 @@ def indicator(a, ap, b, bp):
         if (a == pair[0] and b == pair[1]) or (a == pair[1] and b == pair[0]):
             return 0.5
 
-    if (a == pair[0] and b == pair[1]) or (a == pair[1] and b == pair[0]):
-        return 0.5
-
     return 1
 
 
